@@ -10,8 +10,7 @@ html{
 /*-----------navbar css starts-------------*/
 /*.header{
     position: sticky; dipanshu ka doubt iisse jab navbar mein tap karenge to puura section neeche khisak jaata h
-    top: 0; 
-    
+    top: 0;   
 }*/
 .navbar{
     background: linear-gradient(to right,rgba(99, 2, 255, 0.575),rgba(43, 241, 255, 0.692));
@@ -36,7 +35,6 @@ html{
 }
 /*-----------navbar css ends-------------*/
 /*--------------header-sections--------------------*/
-
 .header-section
 {
     color: white;
@@ -105,7 +103,6 @@ html{
     box-shadow:  0 0 20px 0 rgba(0, 0, 0, 0.301);
     transform:translateY(-20px);
 }
-
 .services-titles::before{
     content: "";
     background: blueviolet;
@@ -168,9 +165,8 @@ html{
 }
 
 /*-----------------about us ends---------------------*/
-
+/*460*/
 /*-----------------my work starts---------------------*/
-
 .work-titles::before{
     content: "";
     background: blueviolet;
@@ -222,25 +218,28 @@ html{
     transform: translateY(4px);
 }
 .Social-Link img{
-    font-size: 50px !important;
     transition: 0.2s;
     width: 50px;
     height: auto;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 .Social-Link img:hover{
-    transform: translateY(-5px);
-    box-shadow: 0 0 8px 0 rgb(255, 255, 255);
+    transform: translateY(-2px);
+    box-shadow: 0 0 8px 0 rgb(18, 32, 224);
 }
 
 .constact-btn{
-    border-radius: 50px !important;
-    background-color: rgb(185, 62, 216) !important;
-    border: 1px solid rgb(185, 62, 216) !important;
+    border-radius: 60px !important;
+    background: linear-gradient(to right,rgba(99, 2, 255, 0.575),rgba(43, 241, 255, 0.692)) !important; 
+    border: none !important;
+    background-repeat: no-repeat;
 }
 .constact-btn:hover{
-    border: 1px solid rgb(255, 196, 0) !important; 
-    background-color: rgb(255, 196, 0) !important;
+    border: none !important; 
+    background: linear-gradient(to right,rgba(99, 2, 255, 0.575),rgba(31, 192, 221, 0.692)) !important; 
+}
+.friends img{
+    background: linear-gradient(rgba(16, 209, 161, 0.418),rgba(49, 19, 187, 0.486));
 }
 
 /*-----------------social links ends---------------------*/
@@ -351,11 +350,20 @@ html{
         margin-top: 20px;
     }
     .Social-Link img{
-        font-size: 30px !important;
+        
         transition: 0.2s;
-        width: 30px;
+        width: 40px;
         height: auto;
-        border-radius: 20px;
+        border-radius: 15px;
+    }
+    .friends img{
+        width: 300px !important;
+    }
+    .testimonials{
+        border-left: 4px solid purple;
+        margin-top: 5px;
+        margin-bottom:5px;
+        margin-left: 5px;
     }
 }
 
